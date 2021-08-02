@@ -11,24 +11,24 @@
 <script setup>
 const perks = [
   {
-    image: "src/assets/undraw_Choose_re_7d5a.svg",
+    image: require("../assets/undraw_Choose_re_7d5a.svg"),
     description:
       "Build website with the least efford. Choose features to your liking",
   },
   {
-    image: "src/assets/undraw_Sync_re_492g.svg",
-    description: "Run your apps on multiple platforms without an worry.",
+    image: require("../assets/undraw_Sync_re_492g.svg"),
+    description: "Run your web apps on multiple platforms without an worry.",
   },
   {
-    image: "src/assets/undraw_portfolio_feedback_6r17.svg",
+    image: require("../assets/undraw_portfolio_feedback_6r17.svg"),
     description: "Showoff your works in your portfolio.",
   },
   {
-    image: "src/assets/undraw_Push_notifications_re_t84m.svg",
+    image: require("../assets/undraw_Push_notifications_re_t84m.svg"),
     description: "Always be in touch and be notified about the progress.",
   },
   {
-    image: "src/assets/undraw_Partying_re_at7f.svg",
+    image: require("../assets/undraw_Partying_re_at7f.svg"),
     description: "Celebrate your success with the world.",
   },
 ];

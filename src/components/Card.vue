@@ -27,13 +27,13 @@
 <script setup>
 const cardsList = [
   {
-    image: "/src/assets/alias.png",
+    image: require("../assets/alias.png"),
     subtitle: "Let's make the world a better place for everyone.",
     description:
       "We are a non profit orginization, trying to help the poor become economically independent.",
   },
   {
-    image: "/src/assets/forbay.png",
+    image: require("../assets/forbay.png"),
     subtitle: "No one should suffer any injustice",
     description:
       "We are a non profit orginization, trying to help the poor become economically independent.",
